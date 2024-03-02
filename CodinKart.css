@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conatiner {
+    display: flex;
+}
+
+.Nav {
+    background-color: white;
+    height: 50px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.nav-image1 {
+    margin-right: 20px;
+}
+
+.nav-image2 {
+    margin-left: 20px;
+}
+
+.Nav a {
+    color: Black;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.font-whatsapp {
+    font-size: 30px;
+    background-color: #ffecf2;
+    color: white;
+    height: 28px;
+    width: 28px;
+    border-radius: 15px;
+}
+
+.selected {
+    border: none;
+    background-color: #ffecf2;
+}
+
+a:hover {
+    color: brown;
+}
+
+.section {
+    width: 100%;
+    height: 50vh;
+    background-image: url("https://img.freepik.com/free-photo/ancient-ruins-angkor-majestic-spirituality-praying-generated-by-ai_188544-35475.jpg?");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-head {
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+
+.Book-Today {
+    font-family: Arial;
+    font-size: 8px;
+}
+
+.Kaal {
+    font-family: Arial;
+    font-size: 28px;
+}
+
+.Tri {
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.Contact {
+    font-family: Arial;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 140px;
+    height: 30px;
+}
+
+.font-call {
+    color: #F5761A;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.font-arrow {
+    color: #F5761A;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.number {
+    color: #E26310;
+    margin-top: 10px;
+}
+
+.pandhi-img {
+    width: 300px;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.Section {
+    display: flex;
+    justify-content: center;
+}
+
+.label-head {
+    padding-top: 85px;
+    margin-left: 85px;
+    color: grey;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.content {
+    margin-top: 10px;
+    border-left: 3px solid orange;
+    margin-left: 90px;
+    padding-left: 5px;
+}
+
+.para1 {
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.head1 {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.para2 {
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.para3 {
+    padding-left: 90px;
+    padding-top: 20px;
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.button2 {
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.button2-btn {
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 13px;
+}
+
+.font2-call {
+    margin-right: 10px;
+}
+
+.font2-arrow {
+    margin-left: 10px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    background-color: #FCF8ED;
+    width: 100%;
+    height: 45vh;
+    margin-top: 30px;
+}
+
+.section1-head {
+    padding-top: 30px;
+    margin-right: 320px;
+    color: grey;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.section1-hea1 {
+    margin-right: 300px;
+    padding-top: 3px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.section1-hed2 {
+    padding-top: 8px;
+    font-family: Sans-Serif;
+    letter-spacing: 1px;
+}
+
+.section1-para {
+    padding-top: 10px;
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.pooja-img {
+    width: 300px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.verified {
+    margin-top: 20px;
+    background-color: orange;
+    width: 22px;
+    padding: 5px;
+    height: 20px;
+}
+
+.rupees {
+    margin-top: 20px;
+    background-color: orange;
+    width: 20px;
+    padding: 8px;
+}
+
+.icons {
+    display: flex;
+}
+
+.verified {
+    font-size: 22px;
+    color: white;
+}
+
+.Rupees-font {
+    font-size: 22px;
+    color: white;
+}
+
+.icons-para {
+    padding-left: 10px;
+    padding-top: 30px;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.section2-btn {
+    margin-top: 20px;
+    background-color: orange;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    margin-top: 40px;
+}
+
+.section3-para1 {
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: Arial;
+}
+
+.section3-para2 {
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.section-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    height: 420px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.card-img {
+    width: 350px;
+    height: 290px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+.card-para {
+    margin-top: 5px;
+}
+
+.card-btn:hover {
+    background-color: #800000;
+}
+
+.card-para:hover {
+    color: #800000;
+}
+
+.Image-section {
+    background-image: url('https://res.cloudinary.com/dvlat5yka/image/upload/v1706974750/coding-kart_gocln4.jpg');
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.section4-para {
+    padding-top: 80px;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+.section4-head {
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial;
+}
+
+.section4-btn {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.btn-4 {
+    background-color: white;
+    color: orange;
+    padding: 10px;
+}
+
+.Form {
+    display: flex;
+    justify-content: center;
+    background-color: #FCF8ED;
+    width: 100%;
+    height: 60vh;
+    margin-top: 40px;
+}
+
+.form-div {
+    margin-top: 10px;
+    border-left: 3px solid orange;
+    margin-left: 12px;
+    padding-left: 5px;
+}
+
+.form-para {
+    padding-top: 12px;
+    font-family: Arial;
+    padding-left: 15px;
+}
+
+.Input-tag {
+    margin-top: 80px;
+}
+
+.input-felid {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+}
+
+.input-select {
+    margin-top: 20px;
+    width: 415px;
+    padding: 10px;
+    border: none;
+}
+
+.msg {
+    margin-top: 20px;
+    padding: 10px;
+    height: 30px;
+    border: none;
+}
+
+.form-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.form-btn:hover {
+    background-color: #800000;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+    color: white;
+    padding-top: 50px;
+}
+
+.one {
+    padding-right: 50px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.two {
+    padding-right: 50px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.three {
+    padding-right: 50px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.four {
+    padding-right: 50px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.one-para {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.one-icons {
+    padding-top: 20px;
+    letter-spacing: 4px;
+}
+
+.two-css {
+    padding-top: 15px;
+    font-size: 15px;
+}
